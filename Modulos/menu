@@ -228,9 +228,9 @@ clear
 echo -e "\033[0;34m╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮\033[0m"
 echo -e "\033[0;34m┃\E[44;1;37m                CHECKUSERS               \E[0m\033[0;34m┃"
 echo -e "\033[0;34m╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\033[0m"
-echo -e "\033[1;37m STUDIO \033[1;36m CHECKUSER MIRACLE \033[0m"
 echo -e "\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mGL TUNNEL 
 \033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mCHECKUSER CONECTA 4G
+\033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mCHECKUSER STUDIO
 \033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mLIBERAR CHECKUSER 
 \033[1;31m  [\033[1;36m 00 \033[1;31m] \033[1;37m• \033[1;33mMENU"
 echo ""
@@ -240,9 +240,6 @@ case "$x" in
    clear
 	gltunnel
 	;;
-	studio | studio)
-    gltunnel
-    ;;
 	2 | 02)
 	clear
 	initcheck
@@ -250,6 +247,10 @@ case "$x" in
 	3 | 03)
    clear
 	fixchk
+	;;
+	04 | 04)
+   clear
+    gltunnel
 	;;
    0 | 00)
    menu
