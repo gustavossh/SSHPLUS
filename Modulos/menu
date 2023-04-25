@@ -585,7 +585,7 @@ case "$x" in
    exit
    ;;   
    30)
-   menubots
+   painelv2ray
    ;;
    0 | 00)
    echo -e "\033[1;31mSaindo...\033[0m"
