@@ -16,7 +16,7 @@ apt-get update -y; apt-get upgrade -y;
 ```
 • instala recursos e o script
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/gustavossh/SSHPLUS/main/Plus)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/gustavossh/SSHPLUS/main/ssh-plus)
 
 ```
 
