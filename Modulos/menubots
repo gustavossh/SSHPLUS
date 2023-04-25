@@ -1,6 +1,6 @@
 #!/bin/bash
     clear
-    figlet "BOTS" | lolcat
+    figlet "BOTS WHATSAPP" | lolcat
     echo -e ""
 	echo -e "\033[1;37m 01 ➡️\033[1;36m BOT WHATSAPP & TELEGRAM 💰\033[0m"
     echo -e "\033[1;37m 00 ➡️\033[1;31m SAIR \033[0m"
@@ -14,10 +14,10 @@
 			16 | 016)
 			botssh
 			;;
-			1 | 01)
+			10| 010)
             inst-botteste
             ;;
-            3 | 03)
+            1 | 01)
             terminus
             ;;
             4 | 04)
